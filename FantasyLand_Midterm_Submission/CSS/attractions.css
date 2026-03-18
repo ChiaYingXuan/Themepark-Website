@@ -1,0 +1,259 @@
+body{
+    background-color: rgb(231, 219, 190);
+    margin: 0;
+    font-family:'Poppins' ;
+  }
+  /* styling the footer */
+footer {
+    padding-top: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f4511e;
+    color: aliceblue;
+    
+  }
+  .footer h1{
+    font-size: 15px;
+  }
+  .footer p{
+    font-size: 6px;
+  }
+  .footer-block{
+    padding: 0.5em;
+  }
+  .social-link{
+    width: 25px;
+    height: 25px;
+    padding-right: 0.25em;
+  }
+  
+  /* To hide the link to skip from nav to attraction section */
+.attraction {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  height: 1px;
+  width: 1px;
+  text-align: left;
+  overflow: hidden;
+}
+/* link appears upon pressing tab */
+a.attraction:active,
+a.attraction:focus,
+a.attraction:hover {
+  left: 0px;
+  top: 50px;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
+  /* add background colour to top nav bar*/
+  .navbar {
+    background-color: rgba(240, 240, 240,0.3);
+    overflow: hidden;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: poppins;
+  }
+  
+  /*style links in nav bar*/
+  .navbar a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-style: bolder;
+  }
+  
+  /*logo positioning*/
+  .logo img{
+    position: absolute;
+    padding-top: 4px;
+    padding-left: 8px;
+  }
+  
+  /*change link color when hovering*/
+  .navbar a:hover{
+    background-color: #f4511e;
+    color: black;
+  }
+  
+  /*add colour to active link*/
+  .navbar a.active {
+    background-color: #0b0f50;
+    color: white;
+  }
+  /*style search bar*/
+  .navbar input[type=text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-left: 12px;
+    font-size: 17px;
+  }
+
+
+/*styling individual attractions box*/
+#box1 {
+    width: 350px;
+    height: 360px;
+    background-color: #0b0f50;
+    border-radius: 5%;
+    font-family: MV Boli;
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+}
+
+#box1 > div {
+  width: 350px;
+  height: 250px;
+}
+
+#box1:hover{
+  transform:scale(1.1);
+  color: #f4511e;
+}
+  
+#box2 {
+    width: 350px;
+    height: 360px;
+    background-color: #0b0f50;
+    border-radius: 5%;
+    font-family: MV Boli;
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+}
+
+#box2 > div {
+  width: 350px;
+  height: 250px;
+}
+
+#box2:hover{
+  transform:scale(1.1);
+  color: #f4511e;
+}
+    
+#box3 {
+    width: 350px;
+    height: 360px;
+    background-color: #0b0f50;
+    border-radius: 5%;
+    font-family: MV Boli;
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+}
+#box3 > div {
+  width: 350px;
+  height: 250px;
+}
+
+
+#box3:hover{
+  transform:scale(1.1);
+  color: #f4511e;
+}
+    
+
+#box4 {
+    width: 350px;
+    height: 360px;
+    background-color: #0b0f50;
+    border-radius: 5%;
+    font-family: MV Boli;
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+}
+
+#box4 > div {
+  width: 350px;
+  height: 250px;
+}
+
+#box4:hover{
+  transform:scale(1.1);
+  color:#f4511e;
+}
+
+#box5 {
+    width: 350px;
+    height: 360px;
+    background-color: #0b0f50;
+    border-radius: 5%;
+    font-family: MV Boli;
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+}
+
+#box5 > div {
+  width: 350px;
+  height: 250px;
+}
+
+#box5:hover{
+  transform:scale(1.1);
+  color: #f4511e;
+}
+
+#box6 {
+    width: 350px;
+    height: 360px;
+    background-color: #0b0f50;
+    margin-bottom: 40px;
+    border-radius: 5%;
+    font-family: MV Boli;
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+}
+
+#box6 > div {
+  width: 350px;
+  height: 250px;
+}
+
+#box6:hover{
+  transform:scale(1.1);
+  color: #f4511e;
+}
+
+.big-text {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+
+/* styling attractions grid */
+.grid-container {
+    display: grid;
+    grid: 350px / auto auto auto;
+    grid-gap: 40px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 5%;
+    justify-items: center;
+}
+
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+  color: aliceblue; 
+}
+
+/* requirement for the rides */
+.requirements {
+  font-size: 17px;
+  padding: 1%;
+  padding-left: 6%;
+}
